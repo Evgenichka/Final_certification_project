@@ -15,7 +15,7 @@ def browser():
     service = Service(executable_path=ChromeDriverManager().install())
     options = webdriver.ChromeOptions()
     driver = webdriver.Chrome(service=service, options=options)
-    yield driver
+    return driver
     driver.quit()
 
 @pytest.fixture()
