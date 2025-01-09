@@ -20,14 +20,12 @@ def browser():
 
 @pytest.fixture()
 def login():
-    response = requests.post(testdata['website1'],
-    data={'username': testdata['username'], 'password': testdata['password']})
+    response = requests.post(testdata['website1'], data={'username': testdata['username'], 'password': testdata['password']})
     if response.status_code == 200:
         return response.json()['token']
 
 @pytest.fixture()
 def user_id():
-    response = requests.post(testdata['website1'],
-    data={'username': testdata['username'], 'password': testdata['password']})
+    response = requests.post(testdata['website1'], data={'username': testdata['username'], 'password': testdata['password']})
     if response.status_code == 200:
         return response.json()['id']
