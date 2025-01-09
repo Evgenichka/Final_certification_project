@@ -1,0 +1,17 @@
+    --mdc-layout-grid-margin-desktop: 24px;
+    --mdc-layout-grid-gutter-desktop: 24px;
+    --mdc-layout-grid-column-width-desktop: 72px;
+    --mdc-layout-grid-margin-tablet: 16px;
+    --mdc-layout-grid-gutter-tablet: 16px;
+    --mdc-layout-grid-column-width-tablet: 72px;
+    --mdc-layout-grid-margin-phone: 16px;
+    --mdc-layout-grid-gutter-phone: 16px;
+    --mdc-layout-grid-column-width-phone: 72px;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    color: #000;
+    margin: 0 0 0.5em 0;
+    line-height: 1.2;
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 2rem;
+    text-align: center;
